@@ -1,0 +1,21 @@
+name: Something's broken
+description: Report a bug in a website, tool or design.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Go to ...\n2. Click ...\n3. See ..."
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: Page URL, device, browser or hardware.

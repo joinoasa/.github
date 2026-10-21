@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Ideas and questions
+    url: https://github.com/orgs/joinoasa/discussions
+    about: Post ideas, questions and proposals in Discussions.
+  - name: Security problem
+    url: https://joinoasa.org/security/
+    about: Report security issues privately, not in a public issue.
+  - name: Join OASA
+    url: https://joinoasa.org/join/
+    about: Membership is free. Apply or be invited.

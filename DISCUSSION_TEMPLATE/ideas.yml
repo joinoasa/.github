@@ -1,0 +1,36 @@
+title: "Idea: "
+labels: ["idea"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What's missing or broken?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      description: What would we build?
+    validations:
+      required: true
+  - type: input
+    id: nodes
+    attributes:
+      label: Tech tree nodes
+      description: Which nodes does it build on or unlock? (IDs like R-COM2, or "new node")
+  - type: input
+    id: skills
+    attributes:
+      label: Skills needed
+      placeholder: RF, embedded, software, mechanical, CAD, testing, docs
+  - type: textarea
+    id: first-step
+    attributes:
+      label: First small step
+  - type: dropdown
+    id: funding
+    attributes:
+      label: Funding needed?
+      options: ["No", "Some (parts, under ~$500)", "Yes, more than that", "Not sure"]
