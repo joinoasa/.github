@@ -2,7 +2,7 @@
 
 **Please don't report security problems in public issues.**
 
-Email **security@joinoasa.org** with:
+Email **hello@joinoasa.org** with "Security" in the subject, and include:
 
 - What you found and where
 - Steps to reproduce it
